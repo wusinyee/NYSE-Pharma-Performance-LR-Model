@@ -73,7 +73,7 @@ This structure follows best practices for organizing a data science project:
 - Root directory files for project setup and documentation.
 
 ## Outline 
-**Pharmaceutical Sector Performance Prediction Project Outline**
+**New York Stock Exchange Pharmaceutical Performance Linear Regression Project Outline**
 
 1. Data Collection and Preparation
    a. Stock Data Collection
