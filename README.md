@@ -203,4 +203,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 [Mandy Wu] - [wuqianyi1021@gmail.com]
 
-Project Link: https://github.com/yourusername/NYSE-Pharma-Performance-LR-Model
+Project Link: https://github.com/wusinyee/NYSE-Pharma-Performance-LR-Model
