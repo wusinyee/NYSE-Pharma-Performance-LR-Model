@@ -17,46 +17,46 @@ This project develops a linear regression model to predict pharmaceutical sector
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/pharma-performance-prediction.git
-cd pharma-performance-prediction
+git clone https://github.com/wusinyee/NYSE-Pharma-Performance-LR-Model.git
+cd NYSE-Pharma-Performance-LR-Model
 pip install -r requirements.txt
 ```
 
 ## Project Structure
 ```markdown
-pharma-performance-prediction/
+NYSE-Pharma-Performance-LR-Model/
 │
 ├── data/
-│ ├── raw/
-│ │ └── .gitkeep
-│ └── processed/
-│ └── .gitkeep
+│   ├── raw/
+│   │   └── .gitkeep
+│   └── processed/
+│       └── .gitkeep
 │
 ├── notebooks/
-│ ├── 1.0-data-preprocessing.ipynb
-│ ├── 2.0-exploratory-data-analysis.ipynb
-│ └── 3.0-model-development.ipynb
+│   ├── 1.0-data-preprocessing.ipynb
+│   ├── 2.0-exploratory-data-analysis.ipynb
+│   └── 3.0-model-development.ipynb
 │
 ├── src/
-│ ├── data/
-│ │ ├── init.py
-│ │ └── preprocess.py
-│ ├── features/
-│ │ ├── init.py
-│ │ └── build_features.py
-│ ├── models/
-│ │ ├── init.py
-│ │ ├── train_model.py
-│ │ └── predict_model.py
-│ └── visualization/
-│ ├── init.py
-│ └── visualize.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   └── preprocess.py
+│   ├── features/
+│   │   ├── __init__.py
+│   │   └── build_features.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── train_model.py
+│   │   └── predict_model.py
+│   └── visualization/
+│       ├── __init__.py
+│       └── visualize.py
 │
 ├── tests/
-│ ├── init.py
-│ ├── test_data.py
-│ ├── test_features.py
-│ └── test_models.py
+│   ├── __init__.py
+│   ├── test_data.py
+│   ├── test_features.py
+│   └── test_models.py
 │
 ├── .gitignore
 ├── LICENSE
@@ -66,14 +66,14 @@ pharma-performance-prediction/
 ```
 This structure follows best practices for organizing a data science project:
 
-- `data/`: Stores raw and processed data files.
-- `notebooks/`: Contains Jupyter notebooks for exploration and analysis.
-- `src/`: Houses the main source code of the project.
-- `tests/`: Includes unit tests for different components.
-- Root directory files for project setup and documentation.
+data/: Stores raw and processed data files.
+notebooks/: Contains Jupyter notebooks for exploration and analysis.
+src/: Houses the main source code of the project.
+tests/: Includes unit tests for different components.
+Root directory files for project setup and documentation.
 
-## Outline 
-**New York Stock Exchange Pharmaceutical Performance Linear Regression Project Outline**
+## Outline
+### New York Stock Exchange Pharmaceutical Performance Linear Regression Project Outline
 
 1. Data Collection and Preparation
    a. Stock Data Collection
@@ -178,11 +178,11 @@ This structure follows best practices for organizing a data science project:
     b. Lessons learned documentation
     c. Formal project closure
 
-## Ussage
-1. Run data preprocessing: python src/data/preprocess.py
-2. Perform EDA: jupyter notebook notebooks/2.0-eda.ipynb
-3. Train the model: python src/models/train_model.py
-4. Make predictions: python src/models/predict_model.py
+## Usage
+1. Run data preprocessing: `python src/data/preprocess.py`
+2. Perform EDA: `jupyter notebook notebooks/2.0-exploratory-data-analysis.ipynb`
+3. Train the model: `python src/models/train_model.py`
+4. Make predictions: `python src/models/predict_model.py`
 
 ## Data
 - Data sources: NYSE, FDA, U.S. Bureau of Economic Analysis
@@ -194,7 +194,7 @@ This structure follows best practices for organizing a data science project:
 - Key features: [List top 5 features]
 - Performance metrics: R-squared, MAE, RMSE
 
-## Model
+## Results
 [Brief summary of model performance and key insights]
 
 ## License
@@ -203,4 +203,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 [Mandy Wu] - [wuqianyi1021@gmail.com]
 
-Project Link: https://github.com/yourusername/pharma-performance-prediction
+Project Link: https://github.com/yourusername/NYSE-Pharma-Performance-LR-Model
