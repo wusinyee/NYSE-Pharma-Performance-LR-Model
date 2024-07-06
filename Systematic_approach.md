@@ -1,4 +1,4 @@
-# Comprehensive Guide to ML Project on Pharmaceutical Performance Linear Regression Model
+# Pharmaceutical Performance Linear Regression Model
 
 ## 1. Data Collection and Preprocessing
 
