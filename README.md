@@ -11,7 +11,6 @@ This project develops a linear regression model to predict pharmaceutical sector
 4. [Data](#data)
 5. [Model](#model)
 6. [Results](#results)
-7. [Contributing](#contributing)
 8. [License](#license)
 9. [Contact](#contact)
 
@@ -23,24 +22,55 @@ pip install -r requirements.txt
 ```
 
 ## Project Structure
+```markdown
 pharma-performance-prediction/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│ ├── raw/
+│ │ └── .gitkeep
+│ └── processed/
+│ └── .gitkeep
+│
 ├── notebooks/
-│   ├── 1.0-data-preprocessing.ipynb
-│   ├── 2.0-eda.ipynb
-│   └── 3.0-model-development.ipynb
+│ ├── 1.0-data-preprocessing.ipynb
+│ ├── 2.0-exploratory-data-analysis.ipynb
+│ └── 3.0-model-development.ipynb
+│
 ├── src/
-│   ├── data/
-│   ├── features/
-│   ├── models/
-│   └── visualization/
+│ ├── data/
+│ │ ├── init.py
+│ │ └── preprocess.py
+│ ├── features/
+│ │ ├── init.py
+│ │ └── build_features.py
+│ ├── models/
+│ │ ├── init.py
+│ │ ├── train_model.py
+│ │ └── predict_model.py
+│ └── visualization/
+│ ├── init.py
+│ └── visualize.py
+│
 ├── tests/
+│ ├── init.py
+│ ├── test_data.py
+│ ├── test_features.py
+│ └── test_models.py
+│
+├── .gitignore
 ├── LICENSE
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── setup.py
+```
+This structure follows best practices for organizing a data science project:
+
+- `data/`: Stores raw and processed data files.
+- `notebooks/`: Contains Jupyter notebooks for exploration and analysis.
+- `src/`: Houses the main source code of the project.
+- `tests/`: Includes unit tests for different components.
+- Root directory files for project setup and documentation.
+
 
 ## Ussage
 1. Run data preprocessing: python src/data/preprocess.py
