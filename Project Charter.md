@@ -1,8 +1,8 @@
-# Project Charter: Pharmaceutical Sector Performance Prediction Model
+# Project Charter: NYSE Pharma-Performance Linear Regression Model
 
 ## 1. Project Overview
 - **Title:** Linear Regression Model for Pharmaceutical Sector Performance Prediction
-- **Date:** July 6, 2024
+- **Date:** Jun 18, 2024
 - **Project Manager:** Mandy Wu
 
 ## 2. Project Objective
@@ -38,15 +38,13 @@ Accurate predictions will:
 - Final project report and presentation
 
 ## 6. Stakeholders
-- **Project Sponsor:** [Name], [Position]
-- **Data Science Team:** [Team Members]
-- **Domain Experts:** [Names]
-- **End Users:** Investors, Financial Analysts, Pharmaceutical Strategists
+- **Domain Experts:**
+- **End Users:** Anyone who is interested
 
 ## 7. Timeline
-- **Start Date:** July 15, 2024
-- **End Date:** October 7, 2024
-- **Duration:** 12 weeks
+- **Start Date:** 
+- **End Date:** 
+- **Duration:** 
 
 ## 8. Key Milestones
 - Data preparation: Week 2
@@ -59,15 +57,92 @@ Accurate predictions will:
 ## 9. Budget
 **Total:** $[Amount]
 ### Breakdown:
-- Personnel: $[Amount]
 - Software/Tools: $[Amount]
-- Contingency: $[Amount]
 
-## 10. Risks and Mitigation
-- **Data Quality:** Implement robust validation processes
-- **Model Performance:** Use cross-validation, consider ensemble methods
-- **Timeline Delays:** Include buffer time in each phase
-- **Regulatory Compliance:** Consult legal experts on data usage
+
+## 10. Key Challenges and Mitigation Strategies
+
+**Data Quality and Availability**
+- **Challenge:** Inconsistent or missing data across sources.
+- **Mitigation:**
+  - Implement robust data validation checks
+  - Use multiple data sources for cross-verification
+  - Develop imputation strategies for missing data
+  - Establish contingency plans for data source failures
+
+**Feature Engineering Complexity**
+- **Challenge:** Creating relevant, predictive features for the pharmaceutical sector.
+- **Mitigation:**
+  - Collaborate with domain experts in pharmaceutical finance
+  - Conduct iterative feature development and testing
+  - Implement automated feature selection techniques
+  - Maintain a feature store for reusability and consistency
+
+**Model Performance and Stability**
+- **Challenge:** Achieving consistent performance in a volatile pharmaceutical market.
+- **Mitigation:**
+  - Implement ensemble methods to improve stability
+  - Use rolling window approach for model training
+  - Regularly retrain the model with new market data
+  - Set up automated model performance monitoring and alerting
+
+**Regulatory Compliance**
+- **Challenge:** Ensuring adherence to financial regulations and data privacy laws.
+- **Mitigation:**
+  - Consult with legal experts on compliance requirements for financial models
+  - Implement data anonymization techniques for sensitive information
+  - Establish clear data governance policies specific to pharmaceutical data
+  - Conduct regular compliance audits and documentation reviews
+
+**Interpretability vs. Complexity**
+- **Challenge:** Balancing model complexity with interpretability for stakeholders.
+- **Mitigation:**
+  - Use explainable AI techniques (e.g., SHAP values) for the linear regression model
+  - Develop intuitive visualizations for model outputs and feature importances
+  - Provide layered explanations for different audience levels (technical vs. non-technical)
+  - Conduct regular stakeholder feedback sessions on model interpretability
+
+**Time Management**
+- **Challenge:** Adhering to the project timeline amidst unforeseen issues
+- **Mitigation:**
+  - Build buffer time into each project phase, especially data collection and preprocessing
+  - Implement agile project management methodologies with weekly sprints
+  - Prioritize tasks based on impact and urgency for the LR model development
+  - Conduct regular progress reviews and adjust timeline as needed
+
+**Technical Debt**
+- **Challenge:** Balancing rapid development with code quality and maintainability.
+- **Mitigation:**
+  - Establish coding standards and review processes specific to data science projects
+  - Implement continuous integration/continuous deployment (CI/CD) for model updates
+  - Schedule regular refactoring sessions for the codebase
+  - Maintain comprehensive documentation of the model architecture and data pipeline
+
+**Scalability**
+- **Challenge:** Ensuring the model can handle increasing data volumes and complexity.
+- **Mitigation:**
+  - Design scalable data architecture from the outset, considering future data growth
+  - Use cloud computing resources for flexibility in processing power
+  - Implement efficient data processing techniques (e.g., batch processing for large datasets)
+  - Regularly assess and optimize system performance for the LR model
+
+**Stakeholder Expectations**
+- **Challenge:** Managing diverse expectations from various stakeholders in pharmaceutical finance
+- **Mitigation:**
+  - Clearly define and communicate project scope and limitations of the LR model
+  - Provide regular updates and demonstrations of model performance
+  - Establish a feedback loop for continuous improvement of model outputs
+  - Develop a comprehensive stakeholder management plan tailored to finance and pharma sectors
+
+**Team Skill Gaps**
+- **Challenge:** Addressing potential skill shortages within the team for specialized pharma-finance modeling
+- **Mitigation:**
+  - Conduct skills assessment at project initiation, focusing on linear regression and time series analysis
+  - Provide targeted training on pharmaceutical sector financial analysis
+  - Consider bringing in external experts for specialized tasks (e.g., healthcare policy impact)
+  - Foster a culture of knowledge sharing within the team on pharma-specific modeling techniques
+
+By anticipating these challenges and implementing proactive mitigation strategies, we can increase the likelihood of successful completion of the NYSE Pharma-Performance LR Model project within the estimated timeframe. Regular risk assessments and flexibility in approach will be key to navigating unforeseen obstacles in the dynamic pharmaceutical market.
 
 ## 11. Success Criteria
 - R-squared ≥ 0.7 on test data
@@ -77,14 +152,13 @@ Accurate predictions will:
 
 ## 12. Approval
 - **Project Manager:** [Your Signature]
-- **Project Sponsor:** [Sponsor's Signature]
-- **Date:** July 6, 2024
+- **Date:** Jun 18, 2024
 
 # Project Timeline and Milestones
 
-**Duration:** 12 weeks
-**Start Date:** July 15, 2024
-**End Date:** October 7, 2024
+**Duration:** 
+**Start Date:** 
+**End Date:** 
 
 ## Week 1-2: Data Collection and Preprocessing
 ### Milestone 1 (End of Week 2): Dataset Ready
