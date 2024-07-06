@@ -1,8 +1,6 @@
-```markdown
-# NYSE Pharma-Performance LR Model: Step-by-Step Guide
+# NYSE Pharma-Performance LR Model Step by Step
 
 ## 1. Data Collection and Preparation
-
 ### a. Stock Data Collection
 
 This section focuses on gathering the necessary data for our pharmaceutical stock performance prediction model. Accurate and comprehensive data is crucial for the success of our linear regression model.
