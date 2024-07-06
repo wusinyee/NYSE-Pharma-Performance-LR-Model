@@ -7,10 +7,11 @@ This project develops a linear regression model to predict pharmaceutical sector
 ## Table of Contents
 1. [Installation](#installation)
 2. [Project Structure](#project-structure)
-3. [Usage](#usage)
-4. [Data](#data)
-5. [Model](#model)
-6. [Results](#results)
+3. [Outline](#outline)
+4. [Usage](#usage)
+5. [Data](#data)
+6. [Model](#model)
+7. [Results](#results)
 8. [License](#license)
 9. [Contact](#contact)
 
@@ -71,6 +72,111 @@ This structure follows best practices for organizing a data science project:
 - `tests/`: Includes unit tests for different components.
 - Root directory files for project setup and documentation.
 
+## Outline 
+**Pharmaceutical Sector Performance Prediction Project Outline**
+
+1. Data Collection and Preparation
+   a. Stock Data Collection
+      - NYSE historical dataset from Kaggle
+      - S&P 500 index data
+      - API-fetched pharmaceutical company data
+   b. Economic Data Collection
+   c. Healthcare Data Collection
+   d. Market Sentiment Data Collection
+   e. Data Preprocessing
+   f. Data Integration
+   g. Data Quality Checks
+   h. Feature Engineering
+   i. Data Documentation
+
+2. Exploratory Data Analysis (EDA)
+   a. Analyze variable distributions
+   b. Investigate correlations
+   c. Examine time series characteristics
+   d. Visualize key relationships
+
+3. Feature Selection
+   a. Statistical methods (correlation, VIF, mutual information)
+   b. Domain knowledge application
+
+4. Model Development
+   a. Data splitting (train, validation, test)
+   b. Baseline model implementation
+   c. Advanced model development
+      - Linear models (Ridge, Lasso)
+      - Tree-based models (Random Forest, Gradient Boosting)
+      - Support Vector Regression
+      - Neural Networks
+   d. Cross-validation
+
+5. Model Optimization
+   a. Hyperparameter tuning
+   b. Ensemble methods exploration
+
+6. Model Evaluation and Selection
+   a. Performance metric comparison
+   b. Model interpretability assessment
+   c. Final model selection
+
+7. Model Interpretation
+   a. Feature importance analysis
+   b. SHAP value analysis
+
+8. Model Validation
+   a. Test set evaluation
+   b. Backtesting
+   c. Sensitivity analysis
+
+9. Deployment Planning
+   a. Deployment system design
+   b. Infrastructure setup
+   c. Prediction pipeline development
+
+10. Documentation and Reporting
+    a. Technical documentation
+    b. Final report preparation
+    c. Visualization creation
+
+11. Stakeholder Presentation
+    a. Presentation preparation
+    b. Key findings and results communication
+
+12. Model Deployment
+    a. Implementation of deployment system
+    b. Testing and quality assurance
+
+13. Monitoring and Maintenance
+    a. Performance monitoring setup
+    b. Retraining schedule establishment
+    c. Version control implementation
+
+14. Compliance and Ethics
+    a. Regulatory compliance review
+    b. Fairness and bias assessment
+    c. Ethical use guidelines development
+
+15. Knowledge Transfer
+    a. User guide creation
+    b. Training session conduction
+    c. Support system setup
+
+16. Impact Assessment
+    a. Model impact measurement
+    b. Efficiency gains quantification
+    c. Stakeholder feedback collection
+
+17. Iterative Improvement
+    a. Regular performance reviews
+    b. Continuous improvement implementation
+
+18. Scaling and Expansion
+    a. Scalability assessment
+    b. Expansion roadmap development
+
+19. Project Closure
+    a. Comprehensive project review
+    b. Lessons learned documentation
+    c. Formal project closure
 
 ## Ussage
 1. Run data preprocessing: python src/data/preprocess.py
